@@ -1,6 +1,6 @@
 import React from "react";
 export function Skills() {
-    const skills = ['React', 'JavaScript', 'Tailwind', 'Node.js', 'Python', 'C++', 'Arduino', 'Linux'];
+    const skills = ['System Monitoring', 'System Config', 'SQL Server', 'Firewalls', 'Scripting', 'GIT', 'Data Protection', 'Linux'];
     
     
     return (
