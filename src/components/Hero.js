@@ -8,7 +8,6 @@ export function Hero() {
       className="min-h-screen flex items-center bg-gradient-to-b from-bg-dark to-bg-gradient text-white px-6"
     >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-12">
-
         {/* Left side — Image */}
         <div className="flex-shrink-0 md:w-1/2 flex justify-center">
           <img
@@ -20,7 +19,9 @@ export function Hero() {
 
         {/* Right side — Text */}
         <div className="md:w-1/2 text-center md:text-left">
-          <h1 className="text-5xl text-primary font-bold mb-4">Hi, I'm Reuben</h1>
+          <h1 className="text-5xl text-primary font-bold mb-4">
+            Hi, I'm Reuben
+          </h1>
 
           <p className="text-xl mb-6 text-accent max-w-xl">
             IT Graduate • Systems • Networks • Cloud • Problem Solver
