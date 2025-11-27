@@ -8,7 +8,7 @@ export function Projects() {
 
     <div className="bg-primary p-6 rounded-2xl shadow 
     transition-all duration-300 
-    hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary-light">
+    hover:-translate-y-2 hover:shadow-2xl hover:shadow-accent">
     <h4 className="text-2xl font-semibold mb-3 text-white">Beowulf Cluster</h4>
     <p className="text-white">Designed and built a smallscale PC cluster from consumer grade parts 
         utilising OpenMPI software. Prototyped in Microsoft Azure, built with Cisco networking devices.
@@ -19,7 +19,7 @@ export function Projects() {
     
     <div className="bg-primary p-6 rounded-2xl shadow 
     transition-all duration-300 
-    hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary-light">
+    hover:-translate-y-2 hover:shadow-2xl hover:shadow-accent">
     <h4 className="text-2xl font-semibold mb-3 text-white">Portfolio React Website</h4>
     <p className="text-white">React website build. Version control maintained with GIT. Produced on VS Code.
         Componentised. Utilising Tailwind, JavaScript, Node.js. 

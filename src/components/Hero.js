@@ -30,7 +30,7 @@ export function Hero() {
             to="projects"
             smooth
             duration={600}
-            className="mt-8 inline-block bg-primary text-white px-6 py-3 rounded-xl shadow hover:bg-primary-dark cursor-pointer transition-all"
+            className="mt-8 inline-block bg-primary text-white px-6 py-3 rounded-xl shadow hover:bg-accent cursor-pointer transition-all"
           >
             View My Work
           </Link>

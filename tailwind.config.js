@@ -6,18 +6,18 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#84a98c",  // muted teal → main primary color
-          dark: "#52796f",     // deep teal → darker variant for hover/active
-          light: "#cad2c5",    // ash grey → lighter variant
+          DEFAULT: "#5AA897",
+          dark: "#407A6B",
+          light: "#D7EFE9",
         },
-        accent: "#cad2c5",     // ash grey → use for highlights/buttons
+        accent: "#E6951F",
         bg: {
-          dark: "#2f3e46",      // charcoal blue → dark background (navbar/footer)
-          gradient: "#354f52",  // slate grey → gradient or section background
-          card: "#52796f",       // deep teal → card background
-          section: "#cad2c5",    // ash grey → general section background
-        }
-      }
+          dark: "#F4F6F3",
+          gradient: "#E6EEE8",
+          card: "#FFFFFF",
+          section: "#EAEEE8",
+        },
+      },
     },
   },
   plugins: [],
