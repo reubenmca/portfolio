@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-scroll";
-import me from "../assets/me.jpg";
 
 export function Hero() {
   return (
@@ -13,7 +12,7 @@ export function Hero() {
         {/* Left side — Image */}
         <div className="flex-shrink-0 md:w-1/2 flex justify-center">
           <img
-            src={me}
+            src="/me.jpg"
             alt="Reuben"
             className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-2xl ring-4 ring-accent/30"
           />
