@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 export function Hero() {
   return (
     <section
-      id="home"
+      id="hero"
       className="min-h-screen flex items-center bg-gradient-to-b from-bg-dark to-bg-gradient text-white px-6"
     >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-12">
