@@ -3,7 +3,7 @@ export function Projects() {
   return (
     <section
       id="projects"
-      className="py-24 px-6 bg-gradient-to-b from-bg-dark to-bg-gradient"
+      className="py-20 px-6 bg-gradient-to-b from-bg-dark to-bg-gradient"
     >
       <div className="max-w-5xl mx-auto">
         <h3 className="text-4xl font-bold text-center mb-12 text-primary">
@@ -37,7 +37,7 @@ export function Projects() {
             <p className="text-white">
               React website build. Version control maintained with GIT. Produced
               on VS Code. Componentised. Utilising Tailwind, JavaScript,
-              Node.js.
+              Node.js. Hosted on Microsoft Azure Static Web App. Responsive design.
             </p>
           </div>
         </div>
