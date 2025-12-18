@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
+import { Gallery } from "./components/Gallery";
 import { About } from "./components/About";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
@@ -13,6 +14,7 @@ export default function App() {
       <Hero />
       <About />
       <Skills />
+      <Gallery />
       <Projects />
       <Contact />
       <footer className="py-6 text-center text-gray-500 bg-bg-dark">

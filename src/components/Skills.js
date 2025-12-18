@@ -1,8 +1,8 @@
 import React from "react";
 export function Skills() {
   const skills = [
-    "System Monitoring",
-    "System Config",
+    "Monitoring",
+    "Infra Config",
     "SQL Server",
     "Firewalls",
     "Scripting",
@@ -12,7 +12,7 @@ export function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-6 px-6 bg-bg-dark">
+    <section id="skills" className="py-20 px-6 bg-bg-dark">
       <div className="max-w-5xl mx-auto">
         <h3 className="text-4xl text-primary font-bold text-center mb-12">
           Skills
@@ -29,5 +29,29 @@ export function Skills() {
         </div>
       </div>
     </section>
+    //     <section id="skills" className="py-20 px-6 bg-bg-dark">
+    //   <div className="max-w-5xl mx-auto">
+    //     <h3 className="text-4xl text-primary font-bold text-center mb-12">
+    //       Skills
+    //     </h3>
+
+    //     <div
+    //       className="
+    //         grid gap-6
+    //         [grid-template-columns:repeat(auto-fit,minmax(140px,1fr))]
+    //         text-center
+    //       "
+    //     >
+    //       {skills.map((skill) => (
+    //         <div
+    //           key={skill}
+    //           className="p-4 text-white rounded-xl shadow-sm bg-primary"
+    //         >
+    //           {skill}
+    //         </div>
+    //       ))}
+    //     </div>
+    //   </div>
+    // </section>
   );
 }
