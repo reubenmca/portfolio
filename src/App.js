@@ -14,8 +14,8 @@ export default function App() {
       <Hero />
       <About />
       <Skills />
-      <Gallery />
       <Projects />
+      <Gallery />
       <Contact />
       <footer className="py-6 text-center text-gray-500 bg-bg-dark">
         © {new Date().getFullYear()} Reuben. All rights reserved.

@@ -7,7 +7,7 @@ export function Gallery() {
 
   ];
     return (
-    <div className="px-24 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 bg-bg-dark py-20">
+    <div className="px-24 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 bg-bg-gradient py-20">
       {images.map((image, index) => (
         <div
           key={index}
