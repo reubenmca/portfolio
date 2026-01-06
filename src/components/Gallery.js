@@ -16,6 +16,9 @@ export function Gallery() {
           <img
             src={image.src}
             alt={image.alt}
+            loading="lazy"
+            decoding="async"
+            width="600"
             className="object-cover w-full h-56 transform group-hover:scale-105 transition-transform duration-500"
           />
 
