@@ -1,10 +1,10 @@
 import React from "react";
-import { Navbar } from "./components/Navbar";
+// import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
-import { Gallery } from "./components/Gallery";
-import { About } from "./components/About";
-import { Skills } from "./components/Skills";
-import { Projects } from "./components/Projects";
+// import { Gallery } from "./components/Gallery";
+// import { About } from "./components/About";
+// import { Skills } from "./components/Skills";
+// import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { ITOperationsCapability } from "./components/ITOperationsCapability.jsx";
 import { HardwareCapability } from "./components/HardwareCapability.jsx";
