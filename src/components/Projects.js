@@ -20,7 +20,7 @@ export function Projects() {
             </h4>
             <p className="text-white">
               Designed and built a smallscale PC cluster from consumer grade
-              parts utilising OpenMPI software. Prototyped in Microsoft Azure,
+              parts, utilising OpenMPI software. Prototyped in Microsoft Azure,
               built with Cisco networking devices. Enabled successful parallel
               compute. Completed as a SCRUM team following Agile philosophies.
             </p>
@@ -35,9 +35,10 @@ export function Projects() {
               Portfolio React Website
             </h4>
             <p className="text-white">
-              React website build. Version control maintained with GIT. Produced
-              on VS Code. Componentised. Utilising Tailwind, JavaScript,
-              Node.js. Hosted on Microsoft Azure Static Web App. Responsive design.
+              React portfolio website build. Version control maintained with GIT. 
+              Componentised, utilising Tailwind, JavaScript and
+              Node.js. Hosted on Netlify with custom domain. Responsive design with consistent 
+              colour palette and modern aesthetics. 
             </p>
           </div>
         </div>
